@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Técnica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="Assets/css/style.css" rel="stylesheet">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <div id="container">
+        <header class="d-flex flex-wrap align-items-center  py-3 mb-4 border-bottom">
+            <a href="/"
+                class="d-flex align-items-center col-md-3 offset-2  mb-2 mb-md-0 text-dark text-decoration-none">
+                <img src="Assets/img/won-svgrepo-com (1).svg" class="logo">
+            </a>
+
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 offset-2">
+                <li><a href="#" class="nav-link px-2 link-blue fw-bold">¿Para quién lo hacemos?</a></li>
+                <li><a href="#" class="nav-link px-2 link-blue fw-bold">Iniciativas</a></li>
+                <li><a href="#" class="nav-link px-2 link-blue fw-bold">Miembros</a></li>
+                <li><a href="#" class="nav-link px-2 link-blue fw-bold">Eventos</a></li>
+                <li><a href="#" class="nav-link px-2 link-blue link-active fw-bold">Registro</a></li>
+            </ul>
+
+        </header>
+        <div class="container">
+            <div class="row row-cols-2 row-cols-sm-1 row-cols-md-2 mt-5">
+                <div class="col">
+                    <h1 class="text-muted fw-bold text-wrap wrap mb-5">Sé parte de nuestra Comunidad</h1>
+                    <h3 class="text-muted fw-bold text-wrap wrap mb-3">Marketing y comunicación</h3>
+                    <p class="text-muted text-wrap wrap-sm">Para información sobre alianzas, eventos, patrocinios y
+                        prensa por favor contacta a:</p>
+                </div>
+                <div class="col">
+                    <h6 class="fw-bold text-muted">Captura los siguientes datos</h6>
+                    <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control input-border" id="name" placeholder="Nombre*"
+                                required>
+                            <div class="invalid-feedback">
+                                Escribe un nombre valido.
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="tel" class="form-control input-border" id="phone" placeholder="Teléfono*"
+                                required>
+                            <div class="invalid-feedback">
+                                Escribe un teléfono valido.
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control input-border" id="email" placeholder="Email*"
+                                required>
+                            <div class="invalid-feedback">
+                                Escribe un email valido
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-5">
+                            <input type="text" class="form-control input-border" id="company" placeholder="Empresa*"
+                                required>
+                            <div class="invalid-feedback">
+                                Escribe una empresa valida.
+                            </div>
+                        </div>
+                        <div class="col-3 offset-4">
+                            <button type="submit" id="save"
+                                class="btn btn-primary rounded-pill ps-5 pe-5">Guardar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <footer class="mt-auto">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pt-5 mt-5 border-top">
+                <div class="col mb-3 ml-3">
+
+                </div>
+
+                <div class="col mb-3">
+                    <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                        <img src="Assets/img/won-svgrepo-com (1).svg" class="logo">
+                    </a>
+                    <h6>Siguenos</h6>
+                    <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                        <img src="Assets/img/linkedin-icon-svgrepo-com.svg" class="logo" id="linkedin-logo">
+                    </a>
+                </div>
+
+                <div class="col mb-3">
+                    <h6>AHM</h6>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted-white">Comunidad</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted-white">Sobre nosotros</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col mb-3">
+                    <h6>¿Para quién lo hacemos?</h6>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted-white">Nuestra misión</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted-white">Objetivos</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted-white">Visión</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted-white">Valores</a></li>
+                    </ul>
+                </div>
+
+                <div class="col mb-3">
+                    <h6>Section</h6>
+                    <h6>Iniciativas</h6>
+                    <h6>Miembros</h6>
+                    <h6>Registro</h6>
+                    <h6>Eventos</h6>
+                    <h6>Aviso de privacidad</h6>
+                </div>
+            </div>
+            <div class="row col-10 offset-1">
+                <hr class="border border-white border-1 opacity-100">
+                <p class="text-white text-center fs-6">Desarrollo y diseño donado por © 2022 todos los derechos
+                    reservados</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script>
+        (() => {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            const forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })();
+        function Numeros(e) {
+            tecla = (document.all) ? e.keyCode : e.which;
+            if (tecla == 8) {
+                return true;
+            }
+            // Patron de entrada, en este caso solo acepta numeros
+            patron = /[0-9]/;
+            tecla_final = String.fromCharCode(tecla);
+            return patron.test(tecla_final);
+        }
+        function Numeros(e) {
+            tecla = (document.all) ? e.keyCode : e.which;
+            if (tecla == 8) {
+                return true;
+            }
+            // Patron de entrada, en este caso solo acepta numeros
+            patron = /[0-9]/;
+            tecla_final = String.fromCharCode(tecla);
+            return patron.test(tecla_final);
+        }
+
+        function Letras(e) {
+            key = e.keyCode || e.which;
+            tecla = String.fromCharCode(key).toLowerCase();
+            letras = "áéíóúabcdefghijklmnñopqrstuvwxyz";
+            especiales = "8-37-39-46";
+            tecla_especial = false
+            for (var i in especiales) {
+                if (key == especiales[i]) {
+                    tecla_especial = true;
+                    break;
+                }
+            }
+            if (letras.indexOf(tecla) == -1 && !tecla_especial) {
+                return false;
+            }
+        }
+
+
+
+
+        function enviaDatos(datos) {
+
+            let _datos = JSON.stringify(datos)
+
+            console.log("datos", _datos);
+            fetch('https://localhost:7056/api/Comunidad', {
+                method: "POST",
+                body: _datos,
+                headers: { "Content-type": "application/json; charset=UTF-8" }
+            })
+                .then(response => response.json())
+                .then(json => console.log(json))
+                .catch(err => console.log(err));
+        }
+        function Guardar() {
+            let persona = { nombre: $("#name").val(), telefono: $("#phone").val(), email: $("#email").val(), empresa: $("#company").val() };
+
+            if (validar()) {
+                enviaDatos(persona);
+            } else {
+                console("verifica los datos ingresados");
+            }
+
+
+
+        }
+
+        $(document).ready(function () {
+            $("#save").click(function () {
+                Guardar();
+            });
+        });
+    </script>
+</body>
+
+</html>
